@@ -67,7 +67,7 @@ class App extends Component {
 
     return (
       <div className="app" >
-        <h1 className="title">Simple React app</h1>
+        <h1 className="title">Simple React app!!!</h1>
         <input onChange={this.filterUsers} className="input" type="text" placeholder="Wpisz imię" />
         <UsersList persons={this.state.filteredUsers} />
       </div>
